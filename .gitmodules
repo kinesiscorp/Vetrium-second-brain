@@ -1,3 +1,6 @@
 [submodule "vetrium-lp"]
 	path = vetrium-lp
 	url = https://github.com/kinesiscorp/vetrium-lp.git
+[submodule "esquadrao-do-frog"]
+	path = esquadrao-do-frog
+	url = https://github.com/kinesiscorp/esquadrao-do-frog.git
