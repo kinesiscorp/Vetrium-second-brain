@@ -1,0 +1,3 @@
+[submodule "vetrium-lp"]
+	path = vetrium-lp
+	url = https://github.com/kinesiscorp/vetrium-lp.git
