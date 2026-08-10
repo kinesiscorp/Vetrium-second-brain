@@ -1,7 +1,3 @@
-# Repositorios que ja possuem seu proprio .git (nao versionar aqui)
-/vetrium/
-/frog/site/
-
 # OS
 .DS_Store
 Thumbs.db
