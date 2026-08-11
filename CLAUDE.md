@@ -28,6 +28,8 @@ detalhes técnicos/pessoais lá e detalhes de negócio aqui — ver `projetos/` 
 
 - `clientes/frog.md` — projeto entregue para o streamer Frog, proposta comercial aguardando resposta
 - `clientes/jjl-servicos.md` — proposta em andamento com a JJL Serviços
+- `clientes/da-o-play.md` — orçamento de wireframe de LP + identidade visual pro app Dá o Play
+  (briefing completo em `clientes/da-o-play/briefing.pdf`)
 - `clientes/leads.md` — pipeline de próximos clientes em prospecção
 - `projetos/vetrium-lp.md` — redesign da landing page da Vetrium
 - `projetos/barberflow.md` — projeto sob custódia da Vetrium (negócio; técnico no MegaBrain)

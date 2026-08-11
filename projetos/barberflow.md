@@ -9,3 +9,5 @@
 - Ideia: criar um cron que busca automaticamente barbeiros da região que ainda não usam
   aplicativo de agendamento, com automação para filtrar esses leads e mandar mensagens no
   WhatsApp deles convencendo a assinar o BarberFlow
+- Pedido de um cliente barbeiro: suporte a plano mensal de corte (assinatura recorrente,
+  não só agendamento avulso) — o app precisa se adequar a esse modelo
