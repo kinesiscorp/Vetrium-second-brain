@@ -11,15 +11,19 @@
   Frog e pra JJL Serviços. Vira um playbook repetível pros próximos leads
   (Inergi, Tripilar — ver `clientes/leads.md`).
 
-## Refino em andamento (12/08/2026)
+## Duas refatorações paralelas em aberto (12/08/2026)
 
-Gabriel pediu uma refinada na LP antes de ir atrás de novos clientes, com referências (Trionn, Delucks). Feito nesta rodada, ainda não commitado pra produção nem publicado em vetrium.space:
+Gabriel pediu uma refinada na LP no mesmo dia em que o Gabriel Carvalho, sem coordenar, também subiu uma refatoração grande pro `main` (commit `76871b8`/`6066e0d`, 10:47) — quebrou `page.tsx` em componentes (`src/components/home/*`), deu nova hero (headline "Transformamos negócios em marcas e produtos digitais desejáveis" + V de cristal com os 3 pilares orbitando), portfólio com filtro/modal/paginação, e trouxe um toolkit de design (`.claude/skills/impeccable`). Isso já está publicado (era o que estava em `main` quando fui empurrar).
 
-- **Hero redesenhada**: tirou o mockup literal esquerda/direita, headline despojado ("Menos enfeite. Mais resultado.") + glifo cristalino wireframe flutuante (`OrbShard` em `orbs.tsx`), no espírito do hero da Trionn.
-- **Nova seção "Como pensamos"**: bento grid estilo Delucks com 3 pilares (Estratégia, Design, Tecnologia), card do meio destacado com sublista de stack.
-- **Calculadora de investimento** (`pricing-calculator.tsx`): 4 seletores (tipo/tamanho/estilo/prazo) geram faixa de preço em R$ + prazo. Valores ancorados nas propostas reais já enviadas — ver tabela abaixo. Aba "Recorrente" não tem número, só CTA, porque a Vetrium ainda não fechou um plano de recorrência.
+O trabalho feito nesta conversa ficou **parado na branch `refino-hero-douglas`** (commit `e1d7aa1`, não mesclada, não publicada) pra não sobrescrever o que ele subiu:
 
-### Régua de preço usada na calculadora
+- **Hero alternativa**: tirou o mockup literal esquerda/direita, headline despojado ("Menos enfeite. Mais resultado.") + glifo cristalino wireframe flutuante (`OrbShard` em `orbs.tsx`), no espírito do hero da Trionn.
+- **Seção "Como pensamos"**: bento grid estilo Delucks com 3 pilares (Estratégia, Design, Tecnologia) — mesma ideia dos badges do V de cristal do Gabriel Carvalho, mas como seção própria em vez de embutida na hero.
+- **Calculadora de investimento** (`pricing-calculator.tsx`): não existe na versão dele. 4 seletores (tipo/tamanho/estilo/prazo) geram faixa de preço em R$ + prazo. Valores ancorados nas propostas reais já enviadas — ver tabela abaixo. Aba "Recorrente" não tem número, só CTA, porque a Vetrium ainda não fechou um plano de recorrência.
+
+**Próximo passo**: os dois Gabriéis precisam decidir qual direção de hero vence antes de mesclar qualquer coisa. A calculadora de investimento é a parte que não conflita — dá pra portar pra dentro da estrutura nova de componentes independente da decisão da hero.
+
+### Régua de preço usada na calculadora (só existe na branch `refino-hero-douglas`)
 
 Vem de 3 pontos reais (não inventados): Frog/JJL (`proposal-frog/content.ts`, `proposal-jjl/content.ts`) e Dá o Play (wireframe R$700 + identidade R$1.100, combo R$1.600 com 10% off).
 
