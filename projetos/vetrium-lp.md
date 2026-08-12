@@ -11,19 +11,21 @@
   Frog e pra JJL Serviços. Vira um playbook repetível pros próximos leads
   (Inergi, Tripilar — ver `clientes/leads.md`).
 
-## Duas refatorações paralelas em aberto (12/08/2026)
+## Refino da hero sobrepôs a refatoração do Gabriel Carvalho (12/08/2026)
 
-Gabriel pediu uma refinada na LP no mesmo dia em que o Gabriel Carvalho, sem coordenar, também subiu uma refatoração grande pro `main` (commit `76871b8`/`6066e0d`, 10:47) — quebrou `page.tsx` em componentes (`src/components/home/*`), deu nova hero (headline "Transformamos negócios em marcas e produtos digitais desejáveis" + V de cristal com os 3 pilares orbitando), portfólio com filtro/modal/paginação, e trouxe um toolkit de design (`.claude/skills/impeccable`). Isso já está publicado (era o que estava em `main` quando fui empurrar).
+Gabriel pediu uma refinada na LP no mesmo dia em que o Gabriel Carvalho, sem coordenar, também subiu uma refatoração grande pro `main` (commit `76871b8`/`6066e0d`, 10:47) — quebrou `page.tsx` em componentes (`src/components/home/*`), deu nova hero (headline "Transformamos negócios em marcas e produtos digitais desejáveis" + V de cristal com os 3 pilares orbitando), portfólio com filtro/modal/paginação, e trouxe um toolkit de design (`.claude/skills/impeccable`).
 
-O trabalho feito nesta conversa ficou **parado na branch `refino-hero-douglas`** (commit `e1d7aa1`, não mesclada, não publicada) pra não sobrescrever o que ele subiu:
+Depois de alinhar com o Gabriel Carvalho, o Gabriel confirmou pra sobrescrever: fiz `git reset --hard` + `push --force-with-lease` do `main` pro commit `e1d7aa1` (o refino desta conversa), substituindo o trabalho dele no remoto. A refatoração dele (componentização, filtro/modal/paginação do portfólio, toolkit `.claude/skills/impeccable`) saiu do `main` — se for recuperar algo de lá depois, o commit `6066e0d` ainda existe no reflog local até essa máquina rodar um gc, mas não tem branch/tag apontando pra ele.
 
-- **Hero alternativa**: tirou o mockup literal esquerda/direita, headline despojado ("Menos enfeite. Mais resultado.") + glifo cristalino wireframe flutuante (`OrbShard` em `orbs.tsx`), no espírito do hero da Trionn.
-- **Seção "Como pensamos"**: bento grid estilo Delucks com 3 pilares (Estratégia, Design, Tecnologia) — mesma ideia dos badges do V de cristal do Gabriel Carvalho, mas como seção própria em vez de embutida na hero.
-- **Calculadora de investimento** (`pricing-calculator.tsx`): não existe na versão dele. 4 seletores (tipo/tamanho/estilo/prazo) geram faixa de preço em R$ + prazo. Valores ancorados nas propostas reais já enviadas — ver tabela abaixo. Aba "Recorrente" não tem número, só CTA, porque a Vetrium ainda não fechou um plano de recorrência.
+O que ficou no ar agora:
 
-**Próximo passo**: os dois Gabriéis precisam decidir qual direção de hero vence antes de mesclar qualquer coisa. A calculadora de investimento é a parte que não conflita — dá pra portar pra dentro da estrutura nova de componentes independente da decisão da hero.
+- **Hero nova**: sem mockup literal esquerda/direita, headline despojado ("Menos enfeite. Mais resultado.") + glifo cristalino wireframe flutuante (`OrbShard` em `orbs.tsx`), no espírito do hero da Trionn.
+- **Seção "Como pensamos"**: bento grid estilo Delucks com 3 pilares (Estratégia, Design, Tecnologia).
+- **Calculadora de investimento** (`pricing-calculator.tsx`): 4 seletores (tipo/tamanho/estilo/prazo) geram faixa de preço em R$ + prazo. Valores ancorados nas propostas reais já enviadas — ver tabela abaixo. Aba "Recorrente" não tem número, só CTA, porque a Vetrium ainda não fechou um plano de recorrência.
 
-### Régua de preço usada na calculadora (só existe na branch `refino-hero-douglas`)
+**Pendente**: a componentização, o filtro/modal/paginação do portfólio e o toolkit de design que o Gabriel Carvalho tinha montado não estão mais no `main` — se alguma dessas partes ainda for útil, precisa ser refeita ou recuperada do commit `6066e0d` antes que se perca de vez.
+
+### Régua de preço usada na calculadora
 
 Vem de 3 pontos reais (não inventados): Frog/JJL (`proposal-frog/content.ts`, `proposal-jjl/content.ts`) e Dá o Play (wireframe R$700 + identidade R$1.100, combo R$1.600 com 10% off).
 
