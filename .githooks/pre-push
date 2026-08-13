@@ -1,0 +1,33 @@
+#!/bin/sh
+# Rede de segurança: roda antes de QUALQUER push da raiz, venha de onde vier.
+#
+# Bloqueia dois erros que quebram o repo pra quem clona em outra máquina:
+#   1. publicar estando atrás do remote (vira divergência silenciosa)
+#   2. publicar um ponteiro de submodule cujo commit não existe no remote do submodule
+#
+# Ativado por core.hooksPath=.githooks — ver scripts/bootstrap.sh
+
+ROOT=$(git rev-parse --show-toplevel)
+
+echo "pre-push: verificando sincronia..."
+
+if sh "$ROOT/scripts/sync.sh" --check; then
+    echo "pre-push: ok"
+    exit 0
+fi
+
+cat >&2 <<'EOF'
+
+pre-push: BLOQUEADO — este push deixaria o repo inconsistente pra outra máquina.
+
+Rode:
+
+    sh scripts/sync.sh
+
+Isso publica os submodules primeiro, rebaseia a raiz no remote e faz o push
+na ordem certa. Depois disso o push direto passa.
+
+Para pular esta verificação numa emergência: git push --no-verify
+EOF
+
+exit 1

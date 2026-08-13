@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"C:\\Program Files\\Git\\usr\\bin\\bash.exe\" scripts/sync.sh --auto",
+            "timeout": 120
+          }
+        ]
+      }
+    ]
+  }
+}

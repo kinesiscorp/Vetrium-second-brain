@@ -1,0 +1,3 @@
+# Scripts rodam sob sh (inclusive no Windows, via Git Bash). CRLF quebra o shebang.
+*.sh        text eol=lf
+.githooks/* text eol=lf

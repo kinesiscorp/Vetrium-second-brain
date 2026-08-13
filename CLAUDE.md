@@ -17,6 +17,38 @@ organizadas aqui em documentação estruturada, consultada e atualizada continua
 - Antes de criar uma pasta/categoria nova, prefira encaixar a informação em algo já existente.
 - `vetrium-lp/` e `esquadrao-do-frog/` são git submodules (código real dos projetos) — não editar
   conteúdo deles a partir daqui, apenas referenciar.
+- **Nunca crie repo local sem remote, nem pasta de projeto ignorada pelo `.gitignore`.** Foi
+  assim que o repo desandou antes (ver `decisions/0003`): trabalho invisível de outra máquina.
+  Projeto novo entra como submodule: `git submodule add <url> <nome>`.
+
+## Processo SDD
+
+Trabalho de cliente/projeto passa por `specs/` → `plans/` → `decisions/`, numerados `000N`:
+
+- `specs/` — **o que** construir e por quê (diagnóstico, requisitos, achados)
+- `plans/` — **como** construir (stack, estrutura de seções, próximos passos)
+- `decisions/` — decisões arquiteturais/estruturais no formato ADR, com Contexto/Decisão/
+  Consequências. ADR superada não é apagada: marque `Status: Substituída por 000N`.
+
+Diferença para `clientes/`: `clientes/*.md` é o **estado atual** da relação comercial (status,
+próximo passo, bloqueios). `specs/` e `plans/` são o **processo de construção**. O mesmo cliente
+aparece nos dois — `clientes/frog.md` diz onde a negociação está, `plans/0002` diz como o site
+foi construído.
+
+## Sincronização (obrigatória)
+
+O repo vive em duas máquinas. Publicar fora de ordem quebra o clone do outro lado — a raiz
+apontando para um commit de submodule que não existe no remote dele.
+
+- **Publique sempre com `sh scripts/sync.sh`**, nunca `git push` direto. Ele publica os
+  submodules primeiro, rebaseia a raiz e só então faz push.
+- Um hook `pre-push` (em `.githooks/`, ativo via `core.hooksPath`) bloqueia push fora de ordem
+  mesmo se alguém esquecer. Só é contornável com `--no-verify`.
+- Um hook `Stop` do Claude Code roda `scripts/sync.sh --auto` ao fim de cada sessão: commita a
+  documentação pendente e sincroniza. Ele **não** commita nada fora das pastas de documentação —
+  se você criar arquivo solto na raiz, ele avisa mas não publica.
+- Clone novo: `sh scripts/bootstrap.sh` (ativa os hooks e inicializa os submodules).
+- `.env.local` dos submodules não vem no clone — precisa ser recriado à mão.
 
 ## Cross-reference com o MegaBrain pessoal
 
@@ -31,11 +63,15 @@ detalhes técnicos/pessoais lá e detalhes de negócio aqui — ver `projetos/` 
 - `clientes/da-o-play.md` — orçamento de wireframe de LP + identidade visual pro app Dá o Play
   (briefing completo em `clientes/da-o-play/briefing.pdf`)
 - `clientes/leads.md` — pipeline de próximos clientes em prospecção
+- `clientes/anexos/` — arquivos recebidos de cliente/prospecção (planilhas, decks)
 - `projetos/vetrium-lp.md` — redesign da landing page da Vetrium
 - `projetos/barberflow.md` — projeto sob custódia da Vetrium (negócio; técnico no MegaBrain)
 - `projetos/salgados-flow.md` — projeto sob custódia da Vetrium (negócio; técnico no MegaBrain)
+- `specs/`, `plans/`, `decisions/` — processo SDD (ver seção acima)
 - `design/lp-redesign/` — imagens de referência/inspiração de design
 - `frog/` — assets de marca do cliente Frog (logo, brandkit, badges)
+- `scripts/`, `.githooks/` — sincronização com o GitHub (ver seção abaixo)
+- `vetrium-lp/`, `esquadrao-do-frog/` — submodules com o código real dos projetos
 
 ## Convenções
 
