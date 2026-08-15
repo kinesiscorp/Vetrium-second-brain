@@ -58,11 +58,13 @@ detalhes técnicos/pessoais lá e detalhes de negócio aqui — ver `projetos/` 
 
 ## Estrutura atual
 
-- `clientes/frog.md` — projeto entregue para o streamer Frog, proposta comercial aguardando resposta
-- `clientes/jjl-servicos.md` — proposta em andamento com a JJL Serviços
-- `clientes/da-o-play.md` — orçamento de wireframe de LP + identidade visual pro app Dá o Play
-  (briefing completo em `clientes/da-o-play/briefing.pdf`)
-- `clientes/leads.md` — pipeline de próximos clientes em prospecção
+- `vetrium-crm/` (submodule) — CRM interno da Vetrium: **fonte da verdade** pra clientes/leads,
+  funil, materiais e histórico de interações (substitui `clientes/*.md`, ver
+  `decisions/0004-crm-substitui-clientes-md.md`). Deploy em produção ainda pendente (`DEPLOY.md`
+  no submodule).
+- `clientes/arquivo/` — `.md` de clientes/leads pré-CRM, migrados e congelados como histórico
+  (frog, jjl-servicos, da-o-play, leads)
+- `clientes/da-o-play/briefing.pdf` — briefing recebido do cliente Dá o Play
 - `clientes/anexos/` — arquivos recebidos de cliente/prospecção (planilhas, decks)
 - `projetos/vetrium-lp.md` — redesign da landing page da Vetrium
 - `projetos/barberflow.md` — projeto sob custódia da Vetrium (negócio; técnico no MegaBrain)
@@ -71,7 +73,7 @@ detalhes técnicos/pessoais lá e detalhes de negócio aqui — ver `projetos/` 
 - `design/lp-redesign/` — imagens de referência/inspiração de design
 - `frog/` — assets de marca do cliente Frog (logo, brandkit, badges)
 - `scripts/`, `.githooks/` — sincronização com o GitHub (ver seção abaixo)
-- `vetrium-lp/`, `esquadrao-do-frog/` — submodules com o código real dos projetos
+- `vetrium-lp/`, `esquadrao-do-frog/`, `vetrium-crm/` — submodules com o código real dos projetos
 
 ## Convenções
 

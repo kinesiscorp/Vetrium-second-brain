@@ -1,6 +1,9 @@
+> **Arquivado (15/08/2026):** dado migrado pro CRM (`vetrium-crm`). Este arquivo é
+> histórico do estado pré-CRM, não é mais atualizado — ver `decisions/0004-crm-substitui-clientes-md.md`.
+
 # Frog (streamer)
 
-- Descrição: projeto desenvolvido pela Vetrium para o streamer Frog — código em `../esquadrao-do-frog/` (submodule), assets de marca em `../frog/`
+- Descrição: projeto desenvolvido pela Vetrium para o streamer Frog — código em `../../esquadrao-do-frog/` (submodule), assets de marca em `../../frog/`
 - Status: projeto entregue, proposta comercial enviada — Frog ainda não respondeu
 - Próximo passo: aguardando resposta; avaliando quais os próximos passos caso ele não responda
 

@@ -1,9 +1,12 @@
+> **Arquivado (15/08/2026):** dado migrado pro CRM (`vetrium-crm`). Este arquivo é
+> histórico do estado pré-CRM, não é mais atualizado — ver `decisions/0004-crm-substitui-clientes-md.md`.
+
 # Dá o Play
 
 - Descrição: app mobile (Expo/React Native) que conecta músicos pra formar bandas e organizar apresentações ao vivo — organizador cria evento (data, local, estilo musical, vagas por instrumento, cachê), músicos se candidatam ou são convidados; sistema de avaliação pós-evento constrói reputação
 - Cliente já tem protótipo funcional em desenvolvimento (telas de criar evento, explorar eventos, perfil, candidatura) — a Vetrium não desenvolve o app, só o lado de marca/design
 - Origem: indicação de um amigo do Gabriel
-- Briefing completo: `da-o-play/briefing.pdf` (22/07/2026)
+- Briefing completo: `../da-o-play/briefing.pdf` (22/07/2026)
 
 ## Escopo pedido (2 orçamentos separados)
 
