@@ -4,6 +4,3 @@
 [submodule "esquadrao-do-frog"]
 	path = esquadrao-do-frog
 	url = https://github.com/kinesiscorp/esquadrao-do-frog.git
-[submodule "vetrium-crm"]
-	path = vetrium-crm
-	url = https://github.com/kinesiscorp/vetrium-crm.git

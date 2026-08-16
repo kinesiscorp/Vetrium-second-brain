@@ -58,10 +58,12 @@ detalhes técnicos/pessoais lá e detalhes de negócio aqui — ver `projetos/` 
 
 ## Estrutura atual
 
-- `vetrium-crm/` (submodule) — CRM interno da Vetrium: **fonte da verdade** pra clientes/leads,
-  funil, materiais e histórico de interações (substitui `clientes/*.md`, ver
-  `decisions/0004-crm-substitui-clientes-md.md`). Deploy em produção ainda pendente (`DEPLOY.md`
-  no submodule).
+- `vetrium-lp/` (submodule) — site institucional **e** CRM interno da Vetrium, no mesmo app
+  Next.js: marketing em `/`, admin em `/admin` (auth, clientes/leads, funil, materiais e
+  histórico de interações — **fonte da verdade** pra dados de cliente, substitui `clientes/*.md`,
+  ver `decisions/0004-crm-substitui-clientes-md.md` e `decisions/0005-crm-integrado-ao-vetrium-lp.md`).
+  Deploy via Docker/Coolify na VPS (não mais Vercel), ver `DEPLOY.md` no submodule. Deploy em
+  produção ainda pendente.
 - `clientes/arquivo/` — `.md` de clientes/leads pré-CRM, migrados e congelados como histórico
   (frog, jjl-servicos, da-o-play, leads)
 - `clientes/da-o-play/briefing.pdf` — briefing recebido do cliente Dá o Play
@@ -73,7 +75,7 @@ detalhes técnicos/pessoais lá e detalhes de negócio aqui — ver `projetos/` 
 - `design/lp-redesign/` — imagens de referência/inspiração de design
 - `frog/` — assets de marca do cliente Frog (logo, brandkit, badges)
 - `scripts/`, `.githooks/` — sincronização com o GitHub (ver seção abaixo)
-- `vetrium-lp/`, `esquadrao-do-frog/`, `vetrium-crm/` — submodules com o código real dos projetos
+- `vetrium-lp/`, `esquadrao-do-frog/` — submodules com o código real dos projetos
 
 ## Convenções
 
