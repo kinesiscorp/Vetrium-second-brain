@@ -62,8 +62,8 @@ detalhes técnicos/pessoais lá e detalhes de negócio aqui — ver `projetos/` 
   Next.js: marketing em `/`, admin em `/admin` (auth, clientes/leads, funil, materiais e
   histórico de interações — **fonte da verdade** pra dados de cliente, substitui `clientes/*.md`,
   ver `decisions/0004-crm-substitui-clientes-md.md` e `decisions/0005-crm-integrado-ao-vetrium-lp.md`).
-  Deploy via Docker/Coolify na VPS (não mais Vercel), ver `DEPLOY.md` no submodule. Deploy em
-  produção ainda pendente.
+  Deploy via Dokku na VPS (não mais Vercel), mesmo esquema do BarberFlow — ver `DEPLOY.md` no
+  submodule. Deploy em produção ainda pendente.
 - `clientes/arquivo/` — `.md` de clientes/leads pré-CRM, migrados e congelados como histórico
   (frog, jjl-servicos, da-o-play, leads)
 - `clientes/da-o-play/briefing.pdf` — briefing recebido do cliente Dá o Play
