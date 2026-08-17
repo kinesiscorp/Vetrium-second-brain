@@ -30,10 +30,11 @@ Trabalho de cliente/projeto passa por `specs/` → `plans/` → `decisions/`, nu
 - `decisions/` — decisões arquiteturais/estruturais no formato ADR, com Contexto/Decisão/
   Consequências. ADR superada não é apagada: marque `Status: Substituída por 000N`.
 
-Diferença para `clientes/`: `clientes/*.md` é o **estado atual** da relação comercial (status,
-próximo passo, bloqueios). `specs/` e `plans/` são o **processo de construção**. O mesmo cliente
-aparece nos dois — `clientes/frog.md` diz onde a negociação está, `plans/0002` diz como o site
-foi construído.
+Diferença para os dados de cliente: o **estado atual** da relação comercial (estágio do funil,
+próximo passo, bloqueios) vive no CRM em `/admin`, não em Markdown — ver `decisions/0004`.
+`specs/` e `plans/` são o **processo de construção**. O mesmo cliente aparece nos dois: o CRM diz
+onde a negociação está, `plans/0002` diz como o site foi construído. `clientes/arquivo/*.md` é o
+estado pré-CRM, congelado — não editar.
 
 ## Sincronização (obrigatória)
 

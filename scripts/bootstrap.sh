@@ -14,6 +14,10 @@ echo "ok  hooks ativados (.githooks)"
 git submodule update --init --recursive
 echo "ok  submodules: vetrium-lp, esquadrao-do-frog"
 
+# Sem isto, um `git pull` normal deixa os ponteiros de submodule para trás.
+git config submodule.recurse true
+echo "ok  pull passa a recursar nos submodules"
+
 cat <<'EOF'
 
 Pronto. Falta só o que o git não carrega:

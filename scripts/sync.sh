@@ -62,6 +62,22 @@ git submodule --quiet foreach 'echo "$sm_path"' | while read -r SM; do
 
     git -C "$SM" fetch --quiet origin || fail "não consegui alcançar o remote de $SM"
 
+    # `git pull --recurse-submodules` deixa o submodule em detached HEAD. Nesse estado
+    # não dá pra publicar nada de dentro dele, então reancoramos na branch que já
+    # contém este commit em vez de abortar mais adiante.
+    if [ "$(git -C "$SM" rev-parse --abbrev-ref HEAD)" = "HEAD" ] && [ "$CHECK_ONLY" != "1" ]; then
+        # grep -v '^(' descarta a pseudo-entrada "(HEAD detached at ...)" que o
+        # git lista junto com as branches de verdade.
+        ALVO=$(git -C "$SM" branch --format='%(refname:short)' --contains "$SHA" 2>/dev/null \
+               | grep -v '^(' | head -1)
+        if [ -n "$ALVO" ]; then
+            git -C "$SM" checkout --quiet "$ALVO"
+            say "  reanexa  $SM: detached HEAD -> $ALVO"
+        else
+            say "  aviso    $SM em detached HEAD e nenhuma branch local contém $(git -C "$SM" rev-parse --short HEAD)"
+        fi
+    fi
+
     # O commit em que o submodule está existe em alguma branch do remote dele?
     # (não dá pra assumir origin/HEAD — nem todo clone de submodule tem esse ref)
     if [ -n "$(git -C "$SM" branch -r --contains "$SHA" 2>/dev/null)" ]; then
