@@ -64,7 +64,8 @@ detalhes técnicos/pessoais lá e detalhes de negócio aqui — ver `projetos/` 
   histórico de interações — **fonte da verdade** pra dados de cliente, substitui `clientes/*.md`,
   ver `decisions/0004-crm-substitui-clientes-md.md` e `decisions/0005-crm-integrado-ao-vetrium-lp.md`).
   Deploy via Dokku na VPS (não mais Vercel), mesmo esquema do BarberFlow — ver `DEPLOY.md` no
-  submodule. Deploy em produção ainda pendente.
+  submodule. Deployado em 29/08/2026 (app rodando, migrations e seed aplicados); falta liberar a
+  porta 3050 no firewall de borda pra ficar acessível de fora — ver `plans/0004`.
 - `clientes/arquivo/` — `.md` de clientes/leads pré-CRM, migrados e congelados como histórico
   (frog, jjl-servicos, da-o-play, leads)
 - `clientes/da-o-play/briefing.pdf` — briefing recebido do cliente Dá o Play
