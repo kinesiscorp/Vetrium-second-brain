@@ -1,7 +1,7 @@
 # 0004 - CRM Vetrium
 
 ## Contexto
-Clientes, leads e materiais da Vetrium viviam em Markdown solto (`clientes/*.md`) — funcionava como um "CRM em texto", mas sem pipeline visual, sem lugar pra anexar materiais por cliente, e sem histórico estruturado de interações. Com dois sócios (Gabriel Antonio e Gabriel Carvalho) usando o mesmo pipeline, faltava um lugar único pra organizar isso.
+Clientes, leads e materiais da Vetrium viviam em Markdown solto (`clientes/*.md`) — funcionava como um "CRM em texto", mas sem pipeline visual, sem lugar pra anexar materiais por cliente, e sem histórico estruturado de interações. Com dois sócios (Gabriel Furlan e Gabriel Carvalho) usando o mesmo pipeline, faltava um lugar único pra organizar isso.
 
 ## Objetivo
 Ter uma aplicação web própria pra organizar clientes/leads, funil comercial, materiais e histórico de interações, substituindo `clientes/*.md` como fonte da verdade.

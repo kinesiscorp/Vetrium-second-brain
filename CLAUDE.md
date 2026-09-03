@@ -1,8 +1,8 @@
 # Vetrium — Second Brain
 
-Base de conhecimento da Vetrium, estúdio de design e tecnologia fundado por Gabriel Antonio
+Base de conhecimento da Vetrium, estúdio de design e tecnologia fundado por Gabriel Furlan
 (sócio, dev) e Gabriel Carvalho (sócio). Segue o mesmo estilo de Document-Driven Development do
-MegaBrain pessoal do Gabriel Antonio (`~/dev/MegaBrain`): informações são fornecidas em conversa e
+MegaBrain pessoal do Gabriel Furlan (`~/dev/MegaBrain`): informações são fornecidas em conversa e
 organizadas aqui em documentação estruturada, consultada e atualizada continuamente.
 
 ## Papel do Claude aqui
@@ -53,7 +53,7 @@ apontando para um commit de submodule que não existe no remote dele.
 
 ## Cross-reference com o MegaBrain pessoal
 
-O perfil pessoal do Gabriel Antonio (família, finanças pessoais, outros projetos) vive em
+O perfil pessoal do Gabriel Furlan (família, finanças pessoais, outros projetos) vive em
 `~/dev/MegaBrain`. Projetos que estão sob custódia da Vetrium (BarberFlow, Salgados-Flow) têm
 detalhes técnicos/pessoais lá e detalhes de negócio aqui — ver `projetos/` nos dois repositórios.
 

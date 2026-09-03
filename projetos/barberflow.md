@@ -3,6 +3,22 @@
 - Sob custódia da Vetrium desde 10/08/2026 (detalhes técnicos/pessoais em `~/dev/MegaBrain/projetos/barberflow.md`)
 - Status: em produção/uso, receita atual R$30/mês
 
+## OKR (alinhamento 01/09/2026, Gabriel Furlan + Gabriel Carvalho, reunião de 30 min)
+
+**Objetivo:** Aumentar a carteira de clientes ativos do BarberFlow.
+
+- **Key Result — Aumentar as chances de captar leads** (dono: Gabriel Furlan)
+  - Objetivo: 1 cliente.
+  - Automatica (automação com IA) — Gabriel Furlan: conversão média 1%, base de 100 pessoas.
+  - Prazo: 7 dias. Finalização: 08/09/2026.
+- **Key Result — Redes Sociais** (dono: Gabriel Carvalho)
+  - Objetivo: criar e organizar o Instagram do BarberFlow.
+  - Formas: post e carrossel.
+  - Finalidade: demonstração visual para captação de clientes (manual e automática) do
+    funcionamento do app.
+  - Recursos: Figma, IA.
+  - Prazo: 7 dias. Finalização: 08/09/2026.
+
 ## Próximos passos
 
 - Melhorar a landing page para prospectar mais clientes
