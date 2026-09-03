@@ -18,6 +18,9 @@
     funcionamento do app.
   - Recursos: Figma, IA.
   - Prazo: 7 dias. Finalização: 08/09/2026.
+  - Execução: lista de leads em `leads-barberflow-sp.md` (9/100 levantados em
+    03/09/2026), disparo via `~/dev/barberflow/whatsapp-gateway` (número já
+    conectado), 1 mensagem/dia pra evitar ban.
 
 ## Próximos passos
 
