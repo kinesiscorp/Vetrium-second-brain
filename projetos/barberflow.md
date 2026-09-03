@@ -20,7 +20,8 @@
   - Prazo: 7 dias. Finalização: 08/09/2026.
   - Execução: lista de leads em `leads-barberflow-sp.md` (9/100 levantados em
     03/09/2026), disparo via `~/dev/barberflow/whatsapp-gateway` (número já
-    conectado), 1 mensagem/dia pra evitar ban.
+    conectado), 1 mensagem/dia pra evitar ban. Roteiro de abordagem em
+    `mensagem-abordagem-barberflow.md`.
 
 ## Próximos passos
 
