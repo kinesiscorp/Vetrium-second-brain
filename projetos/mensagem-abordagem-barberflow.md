@@ -39,24 +39,9 @@ pelo link.
 Faz sentido eu te mandar uma demonstração rápida (2 min) pra você dar uma olhada?
 ```
 
-## Variante — quem já agenda manualmente por WhatsApp
-
-Uso: leads onde a ficha do Google Maps mostra `wa.me` como único canal de agendamento
-(ex.: **Barbearia Suprema**, **Barbearia Expert's**) — a dor de "vida inteira no
-WhatsApp remarcando" é mais direta pra esse perfil.
-
-```
-Oi! Vi a {NOME_BARBEARIA} aqui em São Paulo 💈
-
-Vi que vocês atendem e marcam horário direto pelo WhatsApp — funciona, mas costuma
-tomar um tempão do dia respondendo "tem horário às Xh?" repetidas vezes.
-
-Trabalho num app pra barbearia, o Bbrflow: o cliente agenda sozinho pelo link (sem
-precisar te mandar mensagem), vocês recebem lembrete automático e ainda dá pra
-preencher horário vago à noite/domingo com quem agenda sozinho.
-
-Faz sentido eu te mandar uma demonstração rápida (2 min)?
-```
+Essa é a única versão usada — Gabriel preferiu ela a uma variante mais específica
+pra quem já agenda manualmente por WhatsApp (ex.: Barbearia Suprema, Barbearia
+Expert's). Decisão tomada em 05/09/2026 pra manter só um texto.
 
 ## Se responder interessado
 
@@ -64,10 +49,9 @@ Enviar o link `bbrflow.vercel.app` + oferecer ligar ou mandar vídeo curto de
 demonstração. Assinatura é R$30/mês (`SUBSCRIPTION_CONFIG.VALOR_MENSAL`), sem
 período de teste gratuito no momento — não prometer trial que não existe.
 
-## Pendências antes de disparar em massa
+## Execução
 
-- Confirmar que os telefones marcados "(fixo?)" em `leads-barberflow-sp.md`
-  realmente têm WhatsApp (ligar não serve — checar se o número aparece no app antes
-  de mandar).
-- Definir a ordem de envio (1/dia) — sugestão: começar pelos que já demonstram dor
-  clara (Suprema, Expert's, M Barbearia), depois os demais.
+Disparo automatizado em `~/dev/barberflow/whatsapp-gateway/outreach/` (ver
+`send-daily-lead.js`) — lê `leads.json`, manda 1 mensagem/dia pro próximo lead
+pendente, detecta sozinho números sem WhatsApp (não precisa confirmar manualmente
+antes) e marca o status de cada lead.
