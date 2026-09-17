@@ -1,7 +1,7 @@
 # BarberFlow
 
 - Sob custódia da Vetrium desde 10/08/2026 (detalhes técnicos/pessoais em `~/dev/MegaBrain/projetos/barberflow.md`)
-- Status: em produção/uso, receita atual R$30/mês
+- Status: em produção/uso, receita atual R$49,90/mês
 
 ## OKR (alinhamento 01/09/2026, Gabriel Furlan + Gabriel Carvalho, reunião de 30 min)
 
