@@ -6,6 +6,25 @@
   mergeado nem deployado** — o que está no ar continua sendo a versão
   cinematográfica anterior. Ver seção abaixo.
 
+## Posicionamento da LP (definido em 20/10/2026)
+
+Depois de 4 rodadas de estética sem encaixar (surrealismo, busto 3D, Verdane
+escuro, Grécia clara), o Gabriel definiu a base estratégica — o visual sai
+daqui, não o contrário:
+
+- **Cliente ideal:** donos de negócios locais (barbearias, clínicas, serviços).
+- **Sensação em 5 s:** criatividade — "que site diferente, quero um assim".
+- **Preço percebido:** acessível e de qualidade.
+- **Conceito clássico (estátuas/Grécia/mármore):** abandonado.
+- Estrutura de conteúdo atual (hero → manifesto → serviços → projetos → 3
+  passos → dúvidas → CTA) aprovada; só o layout/design system muda.
+
+Três direções apresentadas para escolha (painel em
+https://claude.ai/artifact/8HnQpJNKDFNwF4XBzupeLN): **Letreiro** (vitrine de
+bairro, toldo, placa), **Antes e depois** (comparador interativo no hero —
+recomendada) e **Recorte** (colagem no violeta/rosa da marca). Aguardando a
+escolha.
+
 ## Redesign "Classic Surrealism × Digital Performance" (19/10/2026)
 
 Pedido do Gabriel: site mais simples para cliente leigo + novo design system
