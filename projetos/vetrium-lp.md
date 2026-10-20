@@ -19,11 +19,13 @@ daqui, não o contrário:
 - Estrutura de conteúdo atual (hero → manifesto → serviços → projetos → 3
   passos → dúvidas → CTA) aprovada; só o layout/design system muda.
 
-Três direções apresentadas para escolha (painel em
-https://claude.ai/artifact/8HnQpJNKDFNwF4XBzupeLN): **Letreiro** (vitrine de
-bairro, toldo, placa), **Antes e depois** (comparador interativo no hero —
-recomendada) e **Recorte** (colagem no violeta/rosa da marca). Aguardando a
-escolha.
+Três direções apresentadas (painel em
+https://claude.ai/artifact/8HnQpJNKDFNwF4XBzupeLN): Letreiro, Antes e depois,
+Recorte. **Escolha: só a paleta "Antes e depois"** (branco #FFFFFF, tinta
+#10162B, cobalto #2B46FF, laranja #FF7A1A, névoa #EEF0F6), mantendo a
+estrutura e o layout atuais. Imagens gregas trocadas por céu neutro e campos
+de cor (commit `f163163` na branch). `design/lp-redesign/prompts-imagens.md`
+ficou desatualizado (ainda fala de Grécia) — reescrever se for gerar imagens.
 
 ## Redesign "Classic Surrealism × Digital Performance" (19/10/2026)
 
