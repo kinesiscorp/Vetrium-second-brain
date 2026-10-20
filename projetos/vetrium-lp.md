@@ -1,11 +1,33 @@
 # LP da Vetrium
 
 - Código: `../vetrium-lp/` (submodule) · Live: `https://www.vetrium.space`
-- Status: **redesign concluído e no ar** — estilo cinematográfico (hero com
-  starfield/mockup 3D, seções de scroll-reveal), 4 frentes de serviço
-  (Redesign, Branding, Landing pages, Produtos digitais), portfólio, processo
-  em 4 passos, CTA final. Nota antiga aqui dizia "validando UI com referência"
-  — desatualizada, o redesign já passou por várias iterações desde então.
+- Status (19/10/2026): **novo redesign pronto na branch
+  `redesign/classic-surrealism`** do submodule (commit `0379b8d`), **ainda não
+  mergeado nem deployado** — o que está no ar continua sendo a versão
+  cinematográfica anterior. Ver seção abaixo.
+
+## Redesign "Classic Surrealism × Digital Performance" (19/10/2026)
+
+Pedido do Gabriel: site mais simples para cliente leigo + novo design system
+baseado no brandkit (escultura clássica com bolha rosa, marfim/obsidiana,
+Playfair/Inter/JetBrains Mono). Briefing completo veio em 3 prompts (master
+prompt, design system, módulo de orçamento).
+
+- Home: hero → por que a Vetrium → serviços por etapa → projetos → processo
+  (6 etapas) → SEO/GEO explicado → diferenciais → FAQ → CTA final.
+- `/orcamento`: formulário de 3 etapas que grava o pedido como **LEAD no CRM**
+  (`/admin`, origem "Site — formulário de orçamento"). Não manda e-mail/aviso
+  — alguém precisa olhar o CRM, ou plugar uma notificação depois.
+- `/privacidade` (LGPD, sem razão social/CNPJ — revisar), `/creditos`, 404,
+  sitemap, robots, OG, JSON-LD.
+- Esculturas: domínio público (The Met, CC0), recortadas e tratadas no projeto.
+- Saiu da home: calculadora de preço (régua parcialmente extrapolada), projetos
+  do template (Master Crypto, Achievo etc.) e **Respawn** (a imagem mostra a
+  marca "Impacto Paintball" — confirmar se é cliente antes de voltar).
+
+Pendências para publicar: confirmar que `contato@vetrium.com.br` recebe e-mail
+(o domínio é vetrium.space); decidir se Respawn volta como case de cliente;
+revisar a política de privacidade; merge na `main` + deploy no Dokku.
 - O mesmo repo também hospeda páginas de outbound por cliente:
   `/diagnostico/[cliente]` + `/proposta-comercial/[cliente]` — já usado pro
   Frog e pra JJL Serviços. Vira um playbook repetível pros próximos leads
