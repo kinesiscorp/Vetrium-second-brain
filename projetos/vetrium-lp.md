@@ -2,7 +2,7 @@
 
 - Código: `../vetrium-lp/` (submodule) · Live: `https://www.vetrium.space`
 - Status (19/10/2026): **novo redesign pronto na branch
-  `redesign/classic-surrealism`** do submodule (commit `0379b8d`), **ainda não
+  `redesign/classic-surrealism`** do submodule (commits `0379b8d` e `ca0bcdd`), **ainda não
   mergeado nem deployado** — o que está no ar continua sendo a versão
   cinematográfica anterior. Ver seção abaixo.
 
@@ -13,14 +13,16 @@ baseado no brandkit (escultura clássica com bolha rosa, marfim/obsidiana,
 Playfair/Inter/JetBrains Mono). Briefing completo veio em 3 prompts (master
 prompt, design system, módulo de orçamento).
 
-- Home: hero → por que a Vetrium → serviços por etapa → projetos → processo
-  (6 etapas) → SEO/GEO explicado → diferenciais → FAQ → CTA final.
+- Home: hero → o que fazemos → projetos → como funciona (3 passos) → dúvidas
+  (SEO/GEO e garantias moram aqui) → CTA final.
 - `/orcamento`: formulário de 3 etapas que grava o pedido como **LEAD no CRM**
   (`/admin`, origem "Site — formulário de orçamento"). Não manda e-mail/aviso
   — alguém precisa olhar o CRM, ou plugar uma notificação depois.
 - `/privacidade` (LGPD, sem razão social/CNPJ — revisar), `/creditos`, 404,
   sitemap, robots, OG, JSON-LD.
-- Esculturas: domínio público (The Met, CC0), recortadas e tratadas no projeto.
+- Hero (20/10/2026): busto 3D em three.js ("Marble Bust 01", Poly Haven, CC0)
+  com bolha de chiclete que infla; home cortada para 5 blocos curtos depois da
+  revisão com a skill impeccable (Gabriel achou que tinha informação demais).
 - Saiu da home: calculadora de preço (régua parcialmente extrapolada), projetos
   do template (Master Crypto, Achievo etc.) e **Respawn** (a imagem mostra a
   marca "Impacto Paintball" — confirmar se é cliente antes de voltar).
