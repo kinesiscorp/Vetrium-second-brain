@@ -45,9 +45,12 @@
   aponta pro WhatsApp da Vetrium (5511941889077).
 - **Paleta aprovada: direção A "Papel e azul"** (brandkit:
   https://claude.ai/artifact/Ga96kxeAfdMadLX3d5eZzt). Mantém o azul do app.
-  - Papel `#F2EFE8` · cartão `#FBFAF7` · azul bbrflow `#0095FF` · azul-noite `#0E1A2A`
+  - Papel `#FAF9F6` · cartão `#FFFFFF` · azul bbrflow `#0095FF` · azul-noite `#0E1A2A`
     (texto, botão principal e seções escuras) · texto 2 `#56677A` · feito/verde `#2F7A4A`
   - Azul sobre fundo escuro como texto: `#4DB2FF`. Azul como texto em fundo claro: `#0066B8`.
   - Regra: nunca texto branco sobre `#0095FF` (contraste 3,1:1). Botão principal é azul-noite.
   - Fontes: Instrument Sans (títulos e texto), IBM Plex Mono (horários e números pequenos).
-  - Logo: tile azul `#0095FF` com tesoura branca (mesmo do app) + "bbrflow" minúsculo.
+  - Logo: tile azul `#0095FF` com tesoura branca (mesmo do app) + "bbrflow" minúsculo. Em
+    destaque grande na página (peça central da LP), usar a versão clara: tile branco com a
+    tesoura azul dentro de um anel. O tile azul grande e brilhante foi rejeitado (22/10/2026).
+  - O creme `#F2EFE8` foi rejeitado por parecer acinzentado; fundo ficou quase branco.
