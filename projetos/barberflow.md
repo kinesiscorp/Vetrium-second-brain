@@ -47,14 +47,16 @@
   instalação, sem fidelidade, cancela quando quiser. Contato do site: WhatsApp
   (17) 93630-9413 e gabrielcarlos1023@gmail.com. CTAs: `/comecar` (Assinar), `/auth` (Área do
   barbeiro), `/` (Agendar horário). Nada de prova social inventada.
-- **Paleta aprovada: direção A "Papel e azul"** (brandkit:
-  https://claude.ai/artifact/Ga96kxeAfdMadLX3d5eZzt). Mantém o azul do app.
-  - Papel `#FAF9F6` · cartão `#FFFFFF` · azul bbrflow `#0095FF` · azul-noite `#0E1A2A`
-    (texto, botão principal e seções escuras) · texto 2 `#56677A` · feito/verde `#2F7A4A`
-  - Azul sobre fundo escuro como texto: `#4DB2FF`. Azul como texto em fundo claro: `#0066B8`.
-  - Regra: nunca texto branco sobre `#0095FF` (contraste 3,1:1). Botão principal é azul-noite.
-  - Fontes: Instrument Sans (títulos e texto), IBM Plex Mono (horários e números pequenos).
-  - Logo: tile azul `#0095FF` com tesoura branca (mesmo do app) + "bbrflow" minúsculo. Em
-    destaque grande na página (peça central da LP), usar a versão clara: tile branco com a
-    tesoura azul dentro de um anel. O tile azul grande e brilhante foi rejeitado (22/10/2026).
-  - O creme `#F2EFE8` foi rejeitado por parecer acinzentado; fundo ficou quase branco.
+- **Identidade visual: a mesma do app** (decisão 22/10/2026, substitui a paleta "Papel e azul"
+  que tinha sido aprovada antes — o Gabriel achou que a LP não parecia o produto). Fonte da
+  verdade: `~/dev/barberflow/app/src/index.css` (seção "BARBEARIA CARTOON").
+  - Nunito 600–900, fundo branco, azul `#0097F5` (hsl 203 100% 48%) chapado, sombra
+    `#0576BD`; verde `#21B557` para dinheiro e status ok; vermelho `#EF4444`.
+  - Cards "toon": borda 2px `#DBDBDB`, raio 1.5rem, sola dura `0 5px 0 rgba(5,118,189,.22)`.
+    Botões chunky com borda inferior escura. Ícones em quadradinhos coloridos com sola.
+  - Listra de barbeiro (azul/branco/vermelho/índigo, -45°) no topo, nos cards de destaque e na
+    faixa azul do final. Nav do app é uma pílula de vidro com cápsula azul no item ativo.
+  - Logo: tile azul com tesoura branca (igual ao ícone do app).
+- Para ver o painel sem logar em produção: subir `app` com `VITE_SUPABASE_URL` e
+  `VITE_SERVER_URL` apontando para hosts falsos e interceptar as chamadas com dados de
+  exemplo (Playwright). Nunca digitar a senha da conta de teste no bbrflow.com.
