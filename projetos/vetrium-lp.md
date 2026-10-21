@@ -1,10 +1,11 @@
 # LP da Vetrium
 
 - Código: `../vetrium-lp/` (submodule) · Live: `https://www.vetrium.space`
-- Status (19/10/2026): **novo redesign pronto na branch
-  `redesign/classic-surrealism`** do submodule (commits `0379b8d` e `ca0bcdd`), **ainda não
-  mergeado nem deployado** — o que está no ar continua sendo a versão
-  cinematográfica anterior. Ver seção abaixo.
+- Status (20/10/2026): **redesign no ar em https://www.vetrium.space** (Vercel,
+  deploy automático da `main` do GitHub; `main` = `7ab2e8f`). Tema escuro como
+  padrão + seletor, paleta de produção, padrões gráficos no lugar de imagens.
+  Pendente: confirmar se o projeto da Vercel tem `DATABASE_URL` — sem ele o
+  formulário de `/orcamento` mostra erro e oferece o WhatsApp.
 
 ## Posicionamento da LP (definido em 20/10/2026)
 
