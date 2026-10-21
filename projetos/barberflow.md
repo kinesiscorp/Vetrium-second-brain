@@ -38,11 +38,15 @@
   GitHub Pages). Refeita no estilo do template Veyra (modulify): hero com celular 3D e agenda
   viva, cards que se montam no scroll, 4 recursos com telas do app, linha do dia, calculadora
   de faltas, preço, dúvidas.
-- Conteúdo só com fatos reais: R$ 49,90/mês por barbearia (valor da API
-  `/v1/config/subscription-monthly-default`), Pix ou boleto, **sem período grátis**, sem
-  depoimentos nem número de clientes (a LP antiga inventava "+350 barbearias", depoimentos,
-  R$ 9,90/barbeiro e 14 dias grátis). CTA vai pra `bbrflow.vercel.app/comecar`; demonstração
-  aponta pro WhatsApp da Vetrium (5511941889077).
+- Conteúdo segue a landing oficial em `https://www.bbrflow.com/landingpage` (22/10/2026):
+  hero "Seu caderno não avisa quando o cliente vai furar" com Antes/Agora, dores ("Já passou
+  por isso?"), link de agendamento (`bbrflow.com/sua-barbearia`), calculadora de furos
+  (furos/semana × 4,3 × valor médio), objeções, modo "ordem de chegada" (só financeiro),
+  plano único e rodapé Vetrium.
+- Preço no site: **R$ 41,30/mês nos 3 primeiros meses, depois R$ 49,90/mês**. Sem taxa de
+  instalação, sem fidelidade, cancela quando quiser. Contato do site: WhatsApp
+  (17) 93630-9413 e gabrielcarlos1023@gmail.com. CTAs: `/comecar` (Assinar), `/auth` (Área do
+  barbeiro), `/` (Agendar horário). Nada de prova social inventada.
 - **Paleta aprovada: direção A "Papel e azul"** (brandkit:
   https://claude.ai/artifact/Ga96kxeAfdMadLX3d5eZzt). Mantém o azul do app.
   - Papel `#FAF9F6` · cartão `#FFFFFF` · azul bbrflow `#0095FF` · azul-noite `#0E1A2A`
