@@ -34,8 +34,17 @@
 
 ## Landing page e marca (redesign 21/10/2026)
 
-- LP em `~/dev/barberflow/lp-novo/index.html` (repo `kinesiscorp/barberflow-lp`, publicada no
-  GitHub Pages). Refeita no estilo do template Veyra (modulify): hero com celular 3D e agenda
+- LP em `~/dev/barberflow/lp-novo/index.html` (repo `kinesiscorp/barberflow-lp`, espelho no
+  GitHub Pages). **Produção é `bbrflow.com/landingpage`**: cópia em
+  `app/public/landingpage/index.html` (repo `kinesiscorp/barberflow`, projeto Vercel
+  `barbershop`), com links do app relativos (`/comecar`, `/auth`, `/`). Ao mudar a LP, copiar
+  pra lá também.
+- Deploy do app (21/10/2026): a integração Git da Vercel **não publicou** o push (último deploy
+  automático 18/09) — publicado via CLI (`vercel deploy --prod` a partir de `git archive` do
+  commit, conta `kinesiscorp`). Reconectar o Git no painel da Vercel para voltar a ser
+  automático.
+- ⚠️ `app/.env.backup` está versionado no repo `kinesiscorp/barberflow` com chaves secretas
+  (Stripe etc.). Pendente: rotacionar as chaves e tirar o arquivo do git. Refeita no estilo do template Veyra (modulify): hero com celular 3D e agenda
   viva, cards que se montam no scroll, 4 recursos com telas do app, linha do dia, calculadora
   de faltas, preço, dúvidas.
 - Conteúdo segue a landing oficial em `https://www.bbrflow.com/landingpage` (22/10/2026):
