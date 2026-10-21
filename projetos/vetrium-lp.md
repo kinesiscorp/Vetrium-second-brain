@@ -13,6 +13,17 @@
   projeto da Vercel **não tem nenhuma env var** (sem `DATABASE_URL`), então hoje os leads só
   chegam pelo WhatsApp e o CRM não grava; configurar o banco quando for usar o CRM em produção.
 
+## Brandkit e design system para Instagram/marketing (21/10/2026)
+
+Documento publicado como artefato "Design System": https://claude.ai/artifact/LfNHUaYkmk65s1ywFJApKb
+(privado; compartilhar pelo menu Share). Traz logos e ícones, cores nos dois temas com contraste
+conferido, tipografia (Inter Tight, Instrument Serif itálica, Geist Mono), padrões de fundo,
+componentes com preview (Logo, Button, Heading, GlassCard, Pattern) e modelos de post 1080×1350
+e story 1080×1920 (`PostFeed`, `Story`), mais as seções Instagram e Voz. Regras marcadas
+"(proposta)" são sugestões novas, não vieram do código da LP. Ao mudar tokens ou logo no site,
+atualizar o artefato. Fontes: `vetrium-lp/src/app/globals.css`, `vetrium-ds.css`,
+`public/brand/`, `design/marca/`.
+
 ## Posicionamento da LP (definido em 20/10/2026)
 
 Depois de 4 rodadas de estética sem encaixar (surrealismo, busto 3D, Verdane
