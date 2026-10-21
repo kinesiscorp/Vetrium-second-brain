@@ -1,8 +1,12 @@
 # LP da Vetrium
 
 - Código: `../vetrium-lp/` (submodule) · Live: `https://www.vetrium.space`
-- Status (20/10/2026): **redesign no ar em https://www.vetrium.space** (Vercel,
-  deploy automático da `main` do GitHub; `main` = `7ab2e8f`). Tema escuro como
+- Status (21/10/2026): **no ar em https://www.vetrium.space** (Vercel, projeto
+  `vetrium-lp`). O deploy automático da `main` **não disparou** no push de 21/10 —
+  publicado via CLI (`vercel deploy --prod` a partir de `git archive` do commit `6d83cbc`,
+  conta `kinesiscorp`). Reconectar o Git no painel da Vercel. Cases: thumbnails de case
+  study em `public/portfolio/{frog,bbrflow}-case.jpg` (16:9); Bbrflow aponta pra
+  `bbrflow.com/landingpage`. Tema escuro como
   padrão + seletor, paleta de produção, padrões gráficos no lugar de imagens.
   Pendente: confirmar se o projeto da Vercel tem `DATABASE_URL` — sem ele o
   formulário de `/orcamento` mostra erro e oferece o WhatsApp.
