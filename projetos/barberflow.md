@@ -32,6 +32,23 @@
 - Pedido de um cliente barbeiro: suporte a plano mensal de corte (assinatura recorrente,
   não só agendamento avulso) — o app precisa se adequar a esse modelo
 
+## Brandkit e design system para Instagram/marketing (21/10/2026)
+
+Artefato "Design System": https://claude.ai/artifact/N8Ufjv21AA15ohHCAy7CRY (privado; compartilhar
+pelo menu Share; o visualizador não abre no Yandex Browser, usar Chrome ou Safari atualizados).
+Fonte: `~/dev/barberflow/app/src/index.css` e a LP (`lp-novo`). Traz logo em vetor (tile #0097F5 +
+tesoura + palavra Nunito 900 em contornos), tokens claro/escuro com contraste conferido, linguagem
+"toon" (cartão com sola, botão chunky, listra de barbeiro, caderno em Caveat), modelos de post
+1080×1350 e story 1080×1920, e as seções Instagram e Voz. Fotos de perfil em
+`design/marca/bbrflow-instagram-{azul,escuro}.png`.
+
+**Inconsistência achada:** o ícone instalado do app (`app/public/icon-512x512.png`, `app-logo.png`) é
+azul em degradê (#4388f6 → #689ef8); toda a interface e a LP usam #0097F5 chapado. Decidir se o
+ícone do app passa para o tile novo (`bbrflow-icon.svg` no brandkit).
+
+Contraste: texto branco sobre #0097F5 dá 3,1:1 (botões do app e da LP); só passa em 19px negrito ou
+maior. `muted` #737373 sobre `bg-sky` dá 4,38:1.
+
 ## Landing page e marca (redesign 21/10/2026)
 
 - LP em `~/dev/barberflow/lp-novo/index.html` (repo `kinesiscorp/barberflow-lp`, espelho no
