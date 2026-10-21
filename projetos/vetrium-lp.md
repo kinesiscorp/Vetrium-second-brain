@@ -8,7 +8,7 @@
   study em `public/portfolio/{frog,bbrflow}-case.jpg` (16:9); Bbrflow aponta pra
   `bbrflow.com/landingpage`. Tema escuro como
   padrão + seletor, paleta de produção, padrões gráficos no lugar de imagens.
-  `/orcamento` (21/10/2026): **WhatsApp é o envio padrão** — o botão final abre a
+  `/orcamento` (21/10/2026): **WhatsApp (17) 93630-9413 é o envio padrão** — o botão final abre a
   conversa com a mensagem completa e o POST no CRM roda em segundo plano, sem erro visível. O
   projeto da Vercel **não tem nenhuma env var** (sem `DATABASE_URL`), então hoje os leads só
   chegam pelo WhatsApp e o CRM não grava; configurar o banco quando for usar o CRM em produção.
