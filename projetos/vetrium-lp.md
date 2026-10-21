@@ -27,6 +27,12 @@ estrutura e o layout atuais. Imagens gregas trocadas por céu neutro e campos
 de cor (commit `f163163` na branch). `design/lp-redesign/prompts-imagens.md`
 ficou desatualizado (ainda fala de Grécia) — reescrever se for gerar imagens.
 
+**Atualização (20/10/2026):** voltou para a **paleta de produção** (Deep
+Charcoal/Graphite/Off-White/Electric Violet/Soft Lilac) com **tema escuro como
+padrão e seletor claro/escuro**; imagens de fundo trocadas por **padrões
+gráficos** (grade, pontos, diagonais, anéis). Projetos: só Esquadrão do Frog e
+Bbr Flow.
+
 ## Redesign "Classic Surrealism × Digital Performance" (19/10/2026)
 
 Pedido do Gabriel: site mais simples para cliente leigo + novo design system
