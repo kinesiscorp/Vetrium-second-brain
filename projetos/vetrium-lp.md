@@ -72,7 +72,7 @@ prompt, design system, módulo de orçamento).
   do template (Master Crypto, Achievo etc.) e **Respawn** (a imagem mostra a
   marca "Impacto Paintball" — confirmar se é cliente antes de voltar).
 
-Pendências para publicar: confirmar que `contato@vetrium.com.br` recebe e-mail
+Pendências para publicar: ~~confirmar que `contato@vetrium.com.br` recebe e-mail~~ (resolvido 21/10/2026: o e-mail de contato é gabrielcarlos1023@gmail.com até existir e-mail corporativo)
 (o domínio é vetrium.space); decidir se Respawn volta como case de cliente;
 revisar a política de privacidade; merge na `main` + deploy no Dokku.
 - O mesmo repo também hospeda páginas de outbound por cliente:
