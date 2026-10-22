@@ -13,5 +13,7 @@ fechou contrato). Serve de modelo para oferecer a LP a outro streamer de PUBG qu
 - Removido: nome/fotos/vídeo do Frog, arte do PUBG/Krafton (figura e insígnias de rank).
 - Mantido sem alterar: proposta comercial e diagnóstico do Frog em `vetrium-lp/` (Gabriel vai
   mexer depois); card "Esquadrão do Frog" do portfólio da Vetrium ainda aponta para a demo.
-- Pendências: foto de mentor gerada por IA (hoje ilustração SVG), screenshot de jogo em alta
-  resolução para o hero, assets sociais (Instagram/YouTube/Discord), artifact de brandkit.
+- Imagens (geradas por IA, enviadas pelo Gabriel em 22/10/2026): mentor (`mentor.jpg`) e cena de
+  gameplay do hero (`hero-game.jpg`, recortada para tirar o logo e os nicks do Frog).
+- Pendências: deploy na Vercel + troca de domínio, assets sociais (Instagram/YouTube/Discord),
+  artifact de brandkit.
