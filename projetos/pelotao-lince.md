@@ -3,8 +3,10 @@
 Marca **fictícia** criada em 22/10/2026 a partir da demo do Esquadrão do Frog (cliente que não
 fechou contrato). Serve de modelo para oferecer a LP a outro streamer de PUBG que vende cursos.
 
-- Código: submodule `esquadrao-do-frog/` (nome do repo/pasta mantido por ora; domínio na Vercel
-  ainda é `esquadrao-do-frog.vercel.app` — **trocar depois**).
+- Código: submodule `esquadrao-do-frog/` (nome do repo/pasta mantido). Produção na Vercel: projeto
+  `pelotao-lince` → https://pelotao-lince.vercel.app (renomeado em 22/10/2026; o alias antigo
+  `esquadrao-do-frog.vercel.app` ainda responde com o site novo — remover do projeto quando quiser).
+  Deploy automático por push no `main` funciona neste projeto e no `vetrium-lp`.
 - Marca: Pelotão Lince · mentor fictício LinceOps (Tales Montrez) · slogan "Visão de lince.
   Decisão de mestre." Planos: Recruta / Operador / Comandante.
 - Brandkit: verde tático `#252D21`, verde militar `#657348`, lima `#C5F368`, areia `#D8D1B8`,
@@ -12,8 +14,8 @@ fechou contrato). Serve de modelo para oferecer a LP a outro streamer de PUBG qu
   texto Inter. Emblema, ranks e mentor em SVG próprios (`public/brand/`).
 - Removido: nome/fotos/vídeo do Frog, arte do PUBG/Krafton (figura e insígnias de rank).
 - Mantido sem alterar: proposta comercial e diagnóstico do Frog em `vetrium-lp/` (Gabriel vai
-  mexer depois); card "Esquadrão do Frog" do portfólio da Vetrium ainda aponta para a demo.
+  mexer depois); card do portfólio da Vetrium agora é "Pelotão Lince" (tipo conceito, com thumbnail nova).
 - Imagens (geradas por IA, enviadas pelo Gabriel em 22/10/2026): mentor (`mentor.jpg`) e cena de
   gameplay do hero (`hero-game.jpg`, recortada para tirar o logo e os nicks do Frog).
-- Pendências: deploy na Vercel + troca de domínio, assets sociais (Instagram/YouTube/Discord),
+- Pendências: assets sociais (Instagram/YouTube/Discord),
   artifact de brandkit.
