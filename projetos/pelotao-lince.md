@@ -42,3 +42,7 @@ fechou contrato). Serve de modelo para oferecer a LP a outro streamer de PUBG qu
   clicáveis (botões acessíveis, somem em 6,5s e reaparecem); cada acerto sobe um tier do badge com burst/
   faíscas/"+1 rank"; no Master aparece "See plans" e "Play again". Touch e reduced-motion mantêm a subida
   automática. Mantidos: cursor tático e linhas de mira com coordenadas.
+
+- 23/10/2026: cursor reduzido a um ponto lima sem mola/efeitos (posição escrita direto no transform, sem
+  render React); mini-game dos alvos com instrução em destaque ("Click the targets to rank up", callout
+  "Click!" no primeiro alvo) e alvos renderizados no servidor (aparecem com a página).
