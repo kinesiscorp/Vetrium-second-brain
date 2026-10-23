@@ -29,3 +29,7 @@ fechou contrato). Serve de modelo para oferecer a LP a outro streamer de PUBG qu
 - 23/10/2026: camada de motion (hero com parallax/mira reativa/entrada por linha, stagger por seção,
   contadores, tabs com tinta compartilhada, FAQ e CTA animados, barra de progresso + scrollspy no header)
   e logo do lince redesenhado em SVG. Depois substituído pelo logo fornecido pelo Gabriel (original em `design/marca/lynx-platoon-logo-original.png`; recorte transparente em `public/brand/lynx-logo.png`).
+
+- 23/10/2026: seção Results ganhou a animação de subida de rank (`rank-climb.tsx`): o badge sobe tier a tier
+  com efeitos na cor do tier, a escada de ranks acende em sincronia e cada aluno/aba reproduz sua própria
+  subida; botão Replay.
