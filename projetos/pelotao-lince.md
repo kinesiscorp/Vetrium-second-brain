@@ -55,3 +55,8 @@ fechou contrato). Serve de modelo para oferecer a LP a outro streamer de PUBG qu
 - 23/10/2026: mini-game ajustado — 5 alvos simultâneos em 12 posições, 10 acertos (2 por rank), vida do alvo
   10s (parado) / 6s (com o relógio correndo), notas S<8s, A<11s, B<15s; recorde em chave nova (`-v2`).
   Edição feita por subagente Haiku e conferida com uma partida completa no navegador.
+
+- 23/10/2026: mini-game virou rodada de 20s (começa no 1º acerto). Pontos = 10 x combo (até x8, janela de
+  1,3s); clique perdido -25 e quebra o combo; alvo expirado quebra o combo (vida 2,8s na rodada). O rank
+  sobe ao vivo pelo score (Silver 400, Gold 1000, Platinum 1800, Diamond 2600, Master 3600) e o rank final
+  é o do fim da rodada. Recorde = maior score (localStorage `lynx-platoon-best-score-v3`).
