@@ -60,3 +60,9 @@ fechou contrato). Serve de modelo para oferecer a LP a outro streamer de PUBG qu
   1,3s); clique perdido -25 e quebra o combo; alvo expirado quebra o combo (vida 2,8s na rodada). O rank
   sobe ao vivo pelo score (Silver 400, Gold 1000, Platinum 1800, Diamond 2600, Master 3600) e o rank final
   é o do fim da rodada. Recorde = maior score (localStorage `lynx-platoon-best-score-v3`).
+
+- 23/10/2026: navbar em grid (logo | menu centralizado | CTA na ponta direita). Performance do hero: anéis do
+  HUD, pulso e timer dos alvos só com transform/opacity (compositor, sem repintura); linhas do mapa fazem
+  fade-in em vez de se desenhar por traço; partes estáticas em `React.memo` (`hero-static.tsx`); modo lite
+  automático (`perf-mode.tsx`: mede ~2s de frames e desliga loops decorativos se a média passar de ~40fps
+  ou se a máquina tiver ≤2 núcleos). Sem animação de `filter`.
