@@ -37,3 +37,8 @@ fechou contrato). Serve de modelo para oferecer a LP a outro streamer de PUBG qu
 - 23/10/2026: cursor customizado (`cursor.tsx`, só mouse; ponto + anel que muda em links/hero/campos, ping no
   clique) e interação do mouse no hero (lanterna que revela a foto, mira com coordenadas, ping de radar no
   clique, badge inclinando em 3D).
+
+- 23/10/2026: hero — removidos a lanterna do mouse e o ping de clique (que bugava). Agora há 3 alvos
+  clicáveis (botões acessíveis, somem em 6,5s e reaparecem); cada acerto sobe um tier do badge com burst/
+  faíscas/"+1 rank"; no Master aparece "See plans" e "Play again". Touch e reduced-motion mantêm a subida
+  automática. Mantidos: cursor tático e linhas de mira com coordenadas.
