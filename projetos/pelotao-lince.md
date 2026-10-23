@@ -46,3 +46,8 @@ fechou contrato). Serve de modelo para oferecer a LP a outro streamer de PUBG qu
 - 23/10/2026: cursor reduzido a um ponto lima sem mola/efeitos (posição escrita direto no transform, sem
   render React); mini-game dos alvos com instrução em destaque ("Click the targets to rank up", callout
   "Click!" no primeiro alvo) e alvos renderizados no servidor (aparecem com a página).
+
+- 23/10/2026: mini-game competitivo — cronômetro (começa no 1º acerto), penalidades (clique perdido +0,5s,
+  alvo expirado +1s), nota S/A/B/C, precisão e recorde pessoal em localStorage; replay em ícone com foco
+  automático (Space). Performance: acerto no pointerdown, efeitos em CSS, relógio/mira escritos direto no
+  DOM, foto duotone pré-processada (`hero-game-duo.jpg`), animações pausadas fora da tela.
