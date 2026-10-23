@@ -25,3 +25,7 @@ fechou contrato). Serve de modelo para oferecer a LP a outro streamer de PUBG qu
   12 colunas, container 1200px, escala de espaçamento de 4px, seções: Hero, Method, Results, Mentor,
   Plans, FAQ, CTA. Foto do mentor agora em `lynxops.jpg` (URL nova para evitar cache de imagem).
 - Card do portfólio da Vetrium ainda diz "Pelotão Lince" — atualizar para Lynx Platoon.
+
+- 23/10/2026: camada de motion (hero com parallax/mira reativa/entrada por linha, stagger por seção,
+  contadores, tabs com tinta compartilhada, FAQ e CTA animados, barra de progresso + scrollspy no header)
+  e logo do lince redesenhado em curvas orgânicas (antes era poligonal/geométrico demais).
