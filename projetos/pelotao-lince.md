@@ -51,3 +51,7 @@ fechou contrato). Serve de modelo para oferecer a LP a outro streamer de PUBG qu
   alvo expirado +1s), nota S/A/B/C, precisão e recorde pessoal em localStorage; replay em ícone com foco
   automático (Space). Performance: acerto no pointerdown, efeitos em CSS, relógio/mira escritos direto no
   DOM, foto duotone pré-processada (`hero-game-duo.jpg`), animações pausadas fora da tela.
+
+- 23/10/2026: mini-game ajustado — 5 alvos simultâneos em 12 posições, 10 acertos (2 por rank), vida do alvo
+  10s (parado) / 6s (com o relógio correndo), notas S<8s, A<11s, B<15s; recorde em chave nova (`-v2`).
+  Edição feita por subagente Haiku e conferida com uma partida completa no navegador.
