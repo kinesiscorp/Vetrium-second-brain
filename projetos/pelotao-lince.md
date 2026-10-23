@@ -33,3 +33,7 @@ fechou contrato). Serve de modelo para oferecer a LP a outro streamer de PUBG qu
 - 23/10/2026: seção Results ganhou a animação de subida de rank (`rank-climb.tsx`): o badge sobe tier a tier
   com efeitos na cor do tier, a escada de ranks acende em sincronia e cada aluno/aba reproduz sua própria
   subida; botão Replay.
+
+- 23/10/2026: cursor customizado (`cursor.tsx`, só mouse; ponto + anel que muda em links/hero/campos, ping no
+  clique) e interação do mouse no hero (lanterna que revela a foto, mira com coordenadas, ping de radar no
+  clique, badge inclinando em 3D).
