@@ -15,7 +15,7 @@ organizadas aqui em documentação estruturada, consultada e atualizada continua
 - Sempre que um arquivo for criado ou atualizado, faça um commit git com mensagem descritiva.
 - Não crie estrutura de pastas antecipadamente. A estrutura cresce organicamente.
 - Antes de criar uma pasta/categoria nova, prefira encaixar a informação em algo já existente.
-- `vetrium-lp/` e `esquadrao-do-frog/` são git submodules (código real dos projetos) — não editar
+- `vetrium-lp/` e `lynx-platoon/` são git submodules (código real dos projetos) — não editar
   conteúdo deles a partir daqui, apenas referenciar.
 - **Nunca crie repo local sem remote, nem pasta de projeto ignorada pelo `.gitignore`.** Foi
   assim que o repo desandou antes (ver `decisions/0003`): trabalho invisível de outra máquina.
@@ -77,7 +77,7 @@ detalhes técnicos/pessoais lá e detalhes de negócio aqui — ver `projetos/` 
 - `design/lp-redesign/` — imagens de referência/inspiração de design
 - `frog/` — assets de marca do cliente Frog (logo, brandkit, badges)
 - `scripts/`, `.githooks/` — sincronização com o GitHub (ver seção abaixo)
-- `vetrium-lp/`, `esquadrao-do-frog/` — submodules com o código real dos projetos
+- `vetrium-lp/`, `lynx-platoon/` — submodules com o código real dos projetos
 
 ## Convenções
 

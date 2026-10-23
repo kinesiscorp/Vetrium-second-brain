@@ -12,7 +12,7 @@ git config core.hooksPath .githooks
 echo "ok  hooks ativados (.githooks)"
 
 git submodule update --init --recursive
-echo "ok  submodules: vetrium-lp, esquadrao-do-frog"
+echo "ok  submodules: vetrium-lp, lynx-platoon"
 
 # Sem isto, um `git pull` normal deixa os ponteiros de submodule para trás.
 git config submodule.recurse true
@@ -23,7 +23,7 @@ cat <<'EOF'
 Pronto. Falta só o que o git não carrega:
 
   - vetrium-lp/.env.local
-  - esquadrao-do-frog/.env.local
+  - lynx-platoon/.env.local
   - npm install dentro de cada submodule
 
 Daqui em diante, use `sh scripts/sync.sh` para publicar.

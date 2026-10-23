@@ -1,12 +1,10 @@
-# Pelotão Lince (Lynx Platoon) — LP demo para streamer de PUBG
+# Lynx Platoon (ex-Pelotão Lince) — LP demo para streamer de PUBG
 
 Marca **fictícia** criada em 22/10/2026 a partir da demo do Esquadrão do Frog (cliente que não
 fechou contrato). Serve de modelo para oferecer a LP a outro streamer de PUBG que vende cursos.
 
-- Código: submodule `esquadrao-do-frog/` (nome do repo/pasta mantido). Produção na Vercel: projeto
-  `pelotao-lince` → https://pelotao-lince.vercel.app (renomeado em 22/10/2026; o alias antigo
-  `esquadrao-do-frog.vercel.app` ainda responde com o site novo — remover do projeto quando quiser).
-  Deploy automático por push no `main` funciona neste projeto e no `vetrium-lp`.
+- Código: submodule `lynx-platoon/` (repo privado `kinesiscorp/lynx-platoon`). Produção na Vercel: projeto
+  `lynx-platoon` → https://lynx-platoon.vercel.app. Deploy automático por push no `main`.
 - Marca: Pelotão Lince · mentor fictício LinceOps (Tales Montrez) · slogan "Visão de lince.
   Decisão de mestre." Planos: Recruta / Operador / Comandante.
 - Brandkit: verde tático `#252D21`, verde militar `#657348`, lima `#C5F368`, areia `#D8D1B8`,
@@ -66,3 +64,9 @@ fechou contrato). Serve de modelo para oferecer a LP a outro streamer de PUBG qu
   fade-in em vez de se desenhar por traço; partes estáticas em `React.memo` (`hero-static.tsx`); modo lite
   automático (`perf-mode.tsx`: mede ~2s de frames e desliga loops decorativos se a média passar de ~40fps
   ou se a máquina tiver ≤2 núcleos). Sem animação de `filter`.
+
+- 23/10/2026: **limpeza de resquícios do Frog**: repo GitHub renomeado para `lynx-platoon`, pasta/submodule
+  renomeados, projeto Vercel renomeado, domínios `esquadrao-do-frog.vercel.app` e `pelotao-lince.vercel.app`
+  removidos (agora 404) e todos os deployments antigos com o nome do Frog apagados da Vercel. O histórico do
+  git do site ainda contém arquivos do Frog (reescrever quebraria os clones; repo é privado). Logo trocado
+  pelo novo emblema (`lynx-logo.png`, fundo transparente; original em `design/marca/`).
