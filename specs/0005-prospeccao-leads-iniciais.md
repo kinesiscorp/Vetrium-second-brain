@@ -17,6 +17,7 @@ Organizar os cinco primeiros leads nomeados da Vetrium em uma cadência comercia
 | P1 | Imobiliária Globo | Imobiliária | Lead | WhatsApp | Apresentar landing page de imóveis + automação de alertas por perfil de busca. |
 | P2 | 2WM Engenharia | Engenharia | Lead | WhatsApp | Fazer diagnóstico do site atual e encontrar um ponto concreto de conversão/mobile. |
 | P2 | Clube de Tiro Bulldog | Clube de tiro | Lead | Site / Instagram a localizar | Diagnóstico de agenda, planos, requisitos e captação de interessados. |
+| P1 | AutoSpark | Estética automotiva / serviços automotivos | Lead | Link da bio (Canva) | Identificar perfil/WhatsApp oficial e oferecer página própria para serviços, prova visual e orçamentos. |
 
 > P0 é prioridade por haver sinal prévio de interesse real. P1 são bons encaixes de oferta. P2 exige diagnóstico antes do primeiro contato.
 
@@ -66,6 +67,15 @@ Organizar os cinco primeiros leads nomeados da Vetrium em uma cadência comercia
 - Mensagem-base, após diagnóstico:
 
 > Olá, tudo bem? Nós trabalhamos com páginas que organizam a jornada do interessado: apresentação do clube, modalidades, agenda, requisitos, dúvidas e pedido de contato/aula experimental. Olhando o site de vocês, identificamos uma oportunidade em [PONTO VALIDADO NO DIAGNÓSTICO]. Posso mandar uma sugestão visual objetiva?
+
+### 6. AutoSpark
+- Link atual: https://autospark.my.canva.site/links
+- Diagnóstico inicial conhecido: a presença de link da bio está hospedada em `my.canva.site`, portanto depende de uma URL genérica de plataforma. Isso é funcional para concentrar links, mas não funciona como uma vitrine própria bem indexável, com portfólio, serviços, avaliações e fluxo de orçamento.
+- Diagnóstico pendente: identificar Instagram, WhatsApp e serviços exatos antes do primeiro contato. Não inferir serviços específicos além do segmento automotivo a partir do nome.
+- Oferta inicial: página própria com domínio, galeria de antes/depois, serviços, provas sociais, região de atendimento e orçamento direcionado para WhatsApp.
+- Mensagem-base, após identificar o perfil oficial:
+
+> Olá, tudo bem? Vi a AutoSpark e o trabalho visual de vocês tem bastante potencial para converter mais pedidos. Hoje o link da bio cumpre a função de direcionar contatos, mas uma página própria pode mostrar melhor os serviços, resultados, avaliações e levar o cliente direto para o orçamento no WhatsApp. Nós montamos uma prévia objetiva para negócios automotivos — posso mostrar uma ideia de como ficaria para vocês?
 
 ## Cadência e automação
 
