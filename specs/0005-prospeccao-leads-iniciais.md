@@ -17,7 +17,23 @@ Organizar os cinco primeiros leads nomeados da Vetrium em uma cadência comercia
 | P1 | Imobiliária Globo | Imobiliária | Lead | WhatsApp | Apresentar landing page de imóveis + automação de alertas por perfil de busca. |
 | P2 | 2WM Engenharia | Engenharia | Lead | WhatsApp | Fazer diagnóstico do site atual e encontrar um ponto concreto de conversão/mobile. |
 | P2 | Clube de Tiro Bulldog | Clube de tiro | Lead | Site / Instagram a localizar | Diagnóstico de agenda, planos, requisitos e captação de interessados. |
-| P1 | AutoSpark | Estética automotiva / serviços automotivos | Lead | Link da bio (Canva) | Identificar perfil/WhatsApp oficial e oferecer página própria para serviços, prova visual e orçamentos. |
+| P2 | AutoSpark | Estética automotiva / serviços automotivos | Lead | Link da bio (Canva) | Identificar perfil/WhatsApp oficial e oferecer página própria para serviços, prova visual e orçamentos. |
+
+## Leads adicionais identificados
+
+Leads extraídos da imagem enviada pelo Gabriel e incorporados à lista para triagem humana. Ainda não foram abordados nem cadastrados como oportunidade ativa no CRM.
+
+| Prioridade inicial | Lead | CNPJ | Segmento/CNAE | Local | Próximo passo |
+|---|---|---|---|---|---|
+| P2 | Carnaval RJ Produção de Eventos | 43.828.675/0001-36 | Produção de eventos / 8230-0/01 | Rio de Janeiro/RJ | Localizar presença digital e avaliar vitrine de eventos, portfólio e captação de orçamento. |
+| P2 | Hunter Soluções e Inovação | 35.152.816/0001-15 | Locação de automóveis sem condutor / 7711-0/00 | Rio de Janeiro/RJ | Validar atividade e canais oficiais; avaliar página de frota, cotação e reserva. |
+| P2 | Dinâmica Distribuidora | 27.243.746/0001-82 | Comércio/distribuição / 4639-7/01 | Campo Bom/RS | Confirmar atuação, catálogo e canal comercial B2B. |
+| P2 | Altarus Distribuidora Ltda. | 54.374.713/0001-44 | Fabricação/distribuição / 2063-1/00 | Nova Odessa/SP | Validar produtos e presença digital; avaliar site institucional e canal comercial. |
+| P2 | Santini Serviços de Gestão | 40.514.814/0001-69 | Serviços / 0161-0/99 | Curitiba/PR | Confirmar atividade real e localizar canais oficiais antes de abordar. |
+| P2 | 20APY Inova Simples (I.S.) | 58.511.903/0001-17 | Serviços profissionais / 7490-1/04 | São Paulo/SP | Descobrir produto/serviço e presença digital antes da qualificação. |
+| P3 | Elbit Brasil Ltda. | — | Publicidade/serviços / 7319-9/99 | — | Verificar se já possui estrutura digital e se há aderência à oferta da Vetrium. |
+| P3 | Atonns Tecnologia e Comunicações | — | Desenvolvimento de software / 6201-5/01 | — | Baixa prioridade; validar se possui equipe ou fornecedor interno. |
+| P3 | Ramper Desenvolvimento | — | Tecnologia/software / 6203-1/00 | — | Baixa prioridade; validar aderência e presença digital. |
 
 > P0 é prioridade por haver sinal prévio de interesse real. P1 são bons encaixes de oferta. P2 exige diagnóstico antes do primeiro contato.
 
