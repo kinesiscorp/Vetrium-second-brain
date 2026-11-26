@@ -35,6 +35,7 @@ Leads extraídos da imagem enviada pelo Gabriel e incorporados à lista para tri
 | P3 | Atonns Tecnologia e Comunicações | — | Desenvolvimento de software / 6201-5/01 | — | Baixa prioridade; validar se possui equipe ou fornecedor interno. |
 | P3 | Ramper Desenvolvimento | — | Tecnologia/software / 6203-1/00 | — | Baixa prioridade; validar aderência e presença digital. |
 | P2 | Piso M Viagens | — | Agência de viagens / turismo | https://www.pisomviagens.com.br/ | Avaliar presença digital, clareza das viagens/pacotes e fluxo de cotação ou atendimento pelo WhatsApp. |
+| P1 | Professor Diego Freitas | — | Educação / cursos / oratória / infoprodutos | https://professordiegofreitas.com/ | Avaliar a estrutura atual de vendas, página de captura/cursos e fluxo de conversão para o WhatsApp ou checkout. |
 
 > P0 é prioridade por haver sinal prévio de interesse real. P1 são bons encaixes de oferta. P2 exige diagnóstico antes do primeiro contato.
 
